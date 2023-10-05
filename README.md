@@ -23,21 +23,9 @@ For a detailed and in-depth understanding of the architecture and its components
 
 ## Implementation
 
-The implementation of the Single-Cycle MIPS Processor is primarily done using Hardware Description Language (HDL) such as Verilog or VHDL. The design involves defining the components and interconnections, ensuring their proper functionality, and strictly adhering to the specifications of the MIPS ISA.
+The implementation of the Single-Cycle MIPS Processor is primarily done using Verilog HDL. The design involves defining the components and interconnections, ensuring their proper functionality, and strictly adhering to the specifications of the MIPS ISA.
 
-The repository contains comprehensive source files, including HDL files, testbenches, and supporting scripts. These resources provide a thorough insight into the implementation of the processor.
 
-## Usage
-
-To utilize the Single-Cycle MIPS Processor effectively, follow these steps:
-
-1. **Clone or Download**: Begin by cloning or downloading this repository to your local machine or development environment.
-2. **HDL Development Environment**: Open the project in your preferred HDL development environment, such as Xilinx Vivado or Quartus Prime.
-3. **Build and Synthesize**: Build and synthesize the design within the HDL development environment to generate the necessary files for simulation and testing.
-4. **Simulation**: Utilize the provided testbenches to simulate the processor and verify its functionality.
-5. **Integration**: Customize and integrate the processor into your specific application or project as needed.
-
-For detailed guidance on usage, integration, and running simulations, refer to the documentation and code comments available within the repository.
 
 ## Contributing
 
