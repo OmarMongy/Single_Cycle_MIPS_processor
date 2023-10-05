@@ -11,16 +11,20 @@ Welcome to my Single-Cycle MIPS Processor repository. This project presents a co
 - **Arithmetic and Logic Operations**: The processor supports a range of arithmetic and logic operations, including addition, subtraction, logical AND, logical OR, and more, providing essential computation capabilities.
 
 ## Architecture
+![complete single-cycle mips processor](https://i.ibb.co/mzJfCTf/Complete-single-cycle-MIPS-processor.png)
 
-The architecture of the Single-Cycle MIPS Processor is based on the MIPS ISA and comprises the following key components:
+
+### The architecture of the Single-Cycle MIPS Processor is based on the MIPS ISA and comprises the following key components:
 
 - **Instruction Memory (IMem)**: This component stores the program instructions that need to be executed by the processor.
 - **Data Memory (DMem)**: The data memory is used for data storage and facilitates load and store operations within the processor.
 - **Control Unit**: The control unit governs the overall operation of the processor, ensuring correct instruction execution and proper handling of control signals.
 - **Data Path Components** : The data path is constructed by integrating the Arithmetic Logic Unit (ALU), which handles arithmetic and logic operations according to the executing instruction. Additionally, the Register File holds the data being processed by the ALU and other processor components, along with the Program Counter for managing the program's execution flow.
-![complete single-cycle mips processor](https://i.ibb.co/mzJfCTf/Complete-single-cycle-MIPS-processor.png)
-
 - For a detailed and in-depth understanding of the architecture and its components, please refer to the source files and accompanying documentation within this repository.
+
+  
+### Top Module View :
+![Top Module View ](https://i.ibb.co/rspBmVn/Screenshot-2023-10-05-101814.png)
 
 ## Supported MIPS Instructions
 
