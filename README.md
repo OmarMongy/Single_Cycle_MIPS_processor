@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the Single-Cycle MIPS Processor repository. This project presents a complete design and implementation of a single-cycle MIPS processor, adhering to the MIPS instruction set architecture (ISA). The primary objective is to create a processor that can execute each instruction within a single clock cycle, providing an efficient and straightforward design approach.
+Welcome to my Single-Cycle MIPS Processor repository. This project presents a complete design and implementation of a single-cycle MIPS processor, adhering to the MIPS instruction set architecture (ISA). The primary objective is to create a processor that can execute each instruction within a single clock cycle, providing an efficient and straightforward design approach.
 
 ## Features
 
