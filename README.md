@@ -17,8 +17,7 @@ The architecture of the Single-Cycle MIPS Processor is based on the MIPS ISA and
 - **Instruction Memory (IMem)**: This component stores the program instructions that need to be executed by the processor.
 - **Data Memory (DMem)**: The data memory is used for data storage and facilitates load and store operations within the processor.
 - **Control Unit**: The control unit governs the overall operation of the processor, ensuring correct instruction execution and proper handling of control signals.
-- **Arithmetic Logic Unit (ALU)**: The ALU performs arithmetic and logic operations on data based on the instruction being executed.
-- **Registers**: The register file stores data that is being processed by the ALU and other components of the processor.
+- **Data Path Components** : The data path is constructed by integrating the Arithmetic Logic Unit (ALU), which handles arithmetic and logic operations according to the executing instruction. Additionally, the Register File holds the data being processed by the ALU and other processor components, along with the Program Counter for managing the program's execution flow.
 
 For a detailed and in-depth understanding of the architecture and its components, please refer to the source files and accompanying documentation within this repository.
 
